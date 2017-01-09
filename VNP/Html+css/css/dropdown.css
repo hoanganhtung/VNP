@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#container {
+    width: 300px;
+    margin: 50px auto;
+}
+#container .link-profile {
+    background: #1eb98f;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 13px;
+    border-radius: 5px;
+    font-family: arial;
+}
+#container .link-profile .icon-user {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background: url('images/icon-user.png');
+    float: left;
+    margin-top: -3px;
+    margin-right: 10px;
+    margin-left: 5px;
+}
+#container .link-profile > span {
+    display: inline-block;
+    margin-top: 2px;
+}
+#container .link-profile .caret {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background: url('images/icon-user.png');
+}
+

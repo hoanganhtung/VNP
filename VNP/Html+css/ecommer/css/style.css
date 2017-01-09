@@ -1,0 +1,372 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.width-1000 {
+    width: 1000px;
+    margin: 0 auto;
+}
+ 
+@font-face {
+    src : url('../fonts/raleway/Raleway-ExtraBold.ttf');
+    font-family: "Raleway-ExtraBold"
+}
+
+@font-face {
+    src : url('../fonts/raleway/Raleway-ExtraLight.ttf');
+    font-family: "Raleway-ExtraLight"
+}
+
+@font-face {
+    src : url('../fonts/raleway/Raleway-Regular.ttf');
+    font-family: "Raleway"
+}
+
+
+#container {
+    background: #fff;
+}
+#wrapper {
+    width: 1000px;
+    margin: 0 auto;
+}
+#header {
+    margin: 0 auto;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 22px;
+}
+#header-top {
+    overflow: hidden;
+    padding: 16px 0;
+    margin-top: 20px;
+    width: 1000px;
+    margin: 0 auto;
+}
+#header-top .left {
+    float: left;
+    width: 500px;
+    padding-top: 18px;
+}
+
+#header-top .right {
+    float: right;
+    margin-top: 15px;
+}
+
+#header-top .logo {
+    position: absolute;
+    top: 7px;
+    left: 40%;
+}
+#header-top .logo > a {
+    display: block;
+}
+#header-top .left > ul {
+    list-style: none;
+}
+#header-top .left > ul li {
+    float: left;
+}
+#header-top .left > ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: #707070;
+    padding-right: 8px;
+    padding-left: 5px;
+    font-family: "Raleway";
+    font-size: 13px;
+    cursor: pointer;
+}
+
+#header-top .right ul {
+    list-style: none;
+}
+#header-top .right ul li {
+    float: left;
+}
+#header-top .right ul li a {
+    display: inline-block;
+    font-family: "Raleway";
+    text-decoration: none;
+    color: #707070;
+    font-size: 13px;
+    padding: 0 10px;
+    cursor: pointer;
+}
+#header-top .right .link-shopping-cart {
+    margin-top: -17px;
+    position: relative;
+}
+#header-top .right .link-shopping-cart .price-cart {
+    font-weight: bold;
+    font-size: 18px;
+    font-family: "Raleway-ExtraBold";
+    position: relative;
+    top: -10px;
+}
+#header-top .right .link-shopping-cart .number-item-cart {
+    position: absolute;
+    font-weight: bold;
+    font-size: 10px;
+    color: #fff;
+    left: 45px;
+    top: 2px;
+}
+
+/* Navigation */
+#nav {
+    border-bottom: 3px solid #ccc;
+}
+#nav > ul {
+    width: 1000px;
+    list-style: none;
+    margin: 0 auto;
+    overflow: hidden;
+}
+#nav > ul > li {
+    float: left;
+}
+#nav > ul > li > a {
+    display: block;
+    text-decoration: none;
+    color: #4a4a4a;
+    font-family: "Raleway-ExtraBold";
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 16px 16px 13px 10px;
+    cursor: pointer;
+}
+
+#nav .form-search {
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    margin-top: 5px;
+    margin-left: 25px;
+}
+#nav .form-search .icon-search {
+    margin-left: 10px;
+    color: #c1c1c1;
+}
+#nav .form-search .input-search {
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    padding: 10px;
+    color: #6d6d6d;
+}
+
+#nav > ul li a:hover{
+    background-color: #ffa800;
+}
+
+/* Slider */
+#slider {
+    background: #f3f4ef;
+    position: relative;
+}
+#slider .slider-container {
+    list-style: none;
+}
+#slider .slider-container .item {
+    font-family: "Raleway-ExtraLight";
+    padding: 40px 50px;
+}
+#slider  .slider-container .item h2 {
+    font-size: 75px;
+    color: #73533c;
+}
+#slider .slider-container .item h4 {
+    font-size: 35px;
+    color: #77583c;
+}
+#slider .slider-container .item .text-normal {
+    color: #6a5540;
+}
+#slider .slider-container .item .link-detail {
+    background: #ffbb00;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    border-radius: 20px;
+    padding: 15px 35px;
+    text-decoration: none;
+    font-family: "Raleway-ExtraBold";
+    cursor: pointer;
+}
+#slider .slider-container .item .normal {
+    padding: 35px 0;
+}
+
+#slider .slider-container .item .yellow {
+    color: #fbb809;
+    padding-bottom: 35px;
+}
+#slider .slider-controls .next,
+#slider .slider-controls .prev {
+    position: absolute;
+    top: 35%;
+    cursor: pointer;
+}
+#slider .slider-controls .prev {
+    left: 7%;
+}
+#slider .slider-controls .next {
+    right: 7%;
+}
+
+/* content */
+/* nav content  */
+
+#nav-content {
+    border-bottom: 2px solid #ccc;
+}
+#nav-content > ul {
+    width: 1000px;
+    list-style: none;
+    padding: 20px 39px 33px 256px;
+    
+}
+#nav-content > ul > li {
+    float: left;
+    padding: 2px 30px 20px 5px;
+}
+#nav-content > ul > li > a {
+    display: block;
+    text-decoration: none;
+    color: #4a4a4a;
+    font-family: "Raleway-ExtraBold";
+    text-transform: uppercase;
+    font-weight: bold;
+}
+/* end nav content  */
+
+/* product content  */
+
+#product-content{
+    width: 1000px;
+    margin: auto;
+}
+#product-content .product{
+    width: 24%;
+    text-align: center;
+    border-right: 1px solid #ccc;
+    margin-top: 20px;
+    float: left;
+    margin-bottom: 20px;
+}
+#product-content .product > h4{
+    padding-top: 10px;
+    font-size: 0.9em;
+}
+#product-content .product > i{
+    padding: 0px;
+    font-size: 0.9em;
+}
+#product-content .product > strong > i{
+    padding-top: 10px;
+}
+.cachdoan{
+    clear: both;
+}
+
+/* end img content  */
+
+#load{
+    padding-left: 539px;
+    padding-top: 40px;
+}
+#load > a{
+    text-decoration: none;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    padding: 13px 20px 13px 20px;
+    color: #4a4a4a;
+    font-family: "Raleway-ExtraBold";
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+/* get $10  */
+#footer>.coupon{
+    width: 100%;
+    background: #ccc;
+    height: 100px;
+    margin-top: 65px;
+    position: relative;
+    
+
+}
+#footer>.coupon>.all{
+    width: 1000px;
+    margin: auto;
+
+}
+#footer>.coupon>.all>img{
+    position: absolute;
+    top: -40px;
+}
+#footer>.coupon>.all> span, form{
+    margin-left: 15%;
+    display: inline-block;
+    padding-top: 30px;
+}
+#footer>.coupon>.all> span{
+    padding: 13px 20px 15px 100px;
+    font-size: 2em;
+}
+#footer>.coupon>.all> form{ 
+    width: 197px;
+    height: 55px;
+    padding: 0px;
+    border-radius: 40px;
+    background: #fff;
+    border:2px solid #fff;
+    position: absolute;
+    right: 12%;
+    top: 10px;
+}
+#footer>.coupon>.all> form>input{
+     border-radius: 40px;
+     color: #ccc;
+     height: 50px;
+}
+.footer{
+    border-bottom: 2px solid #ccc;
+}
+.list{
+    width: 1000px;
+    margin: auto;
+    margin-top: 100px;
+    
+}
+.list>.list-box{
+    display: inline-block;
+    width: 23%;
+    margin: 10px;
+    float: left;
+}
+.list>.list-box>p{
+    border-bottom: 2px solid #ccc;
+    padding: 10px;
+}
+.list>.list-box>ul{
+
+}
+.list>.list-box>ul>li{
+    padding: 10px;
+    color: #ccc;
+    list-style: none;
+}
+.list>.list-box>ul>p{
+    padding: 10px;
+}
+.list>.list-box>ul>img{
+    padding: 5px;
+}
+.list .list-box > ul > li > a{
+    text-decoration: none;
+}
+
+/* end get $10  */
